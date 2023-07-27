@@ -1,0 +1,20 @@
+<!--
+	Development: https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js
+	Production: https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js 
+-->
+<script type="importmap">
+	{
+		"imports": {
+			"vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+		}
+	}
+</script>
+
+<div id="app"></div>
+
+<script type="module">
+	import { createApp, ref } from 'vue'
+	import App from './app.js'
+	createApp(App).mount('#app')
+</script>
+
