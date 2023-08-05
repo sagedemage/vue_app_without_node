@@ -1,6 +1,6 @@
 import { ref, computed } from 'vue'
-import Home from './components/home.js'
-import About from './components/about.js'
+import Home from './components/pages/home.js'
+import About from './components/pages/about.js'
 import Navbar from './components/ui/navbar.js'
 
 export default {
