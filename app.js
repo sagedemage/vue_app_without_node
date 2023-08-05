@@ -26,6 +26,8 @@ export default {
 	},
 	template: /*html*/`
 		<Navbar />
-		<component :is="currentView" />
+		<div id="content">
+			<component :is="currentView" />
+		</div>
 	`
 }
