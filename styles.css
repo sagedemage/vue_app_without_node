@@ -1,4 +1,11 @@
 #content {
     margin-left: 8%;
     margin-right: 8%;
+    margin-top: 75px;
+}
+
+#copyright {
+	height: 75px;
+	text-align: center;
+	margin-top: auto;
 }

@@ -2,10 +2,12 @@ import { ref, computed } from 'vue'
 import Home from './components/pages/home.js'
 import About from './components/pages/about.js'
 import Navbar from './components/ui/navbar.js'
+import Footer from './components/ui/footer.js'
 
 export default {
 	components: {
-		Navbar
+		Navbar,
+		Footer
 	},
 	setup() {
 		const count = ref(0)
@@ -29,5 +31,6 @@ export default {
 		<div id="content">
 			<component :is="currentView" />
 		</div>
+		<Footer />
 	`
 }
