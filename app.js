@@ -27,10 +27,12 @@ export default {
 		return { count, currentView }
 	},
 	template: /*html*/`
-		<Navbar />
-		<div id="content">
-			<component :is="currentView" />
+		<div id="body">
+			<Navbar />
+			<div id="content">
+				<component :is="currentView" />
+			</div>
+			<Footer />
 		</div>
-		<Footer />
 	`
 }
