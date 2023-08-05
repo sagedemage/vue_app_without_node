@@ -21,6 +21,11 @@ export default {
 		return { count, currentView }
 	},
 	template: /*html*/`
+		<nav class="navbar bg-body-tertiary">
+  			<div class="container-fluid">
+    			<a class="navbar-brand" href="#">Navbar</a>
+  			</div>
+		</nav>
 		<a href="#/">Home</a> |
   		<a href="#/about">About</a> 
 		<component :is="currentView" />
